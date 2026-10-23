@@ -1,0 +1,30 @@
+# 环境与密钥
+.env
+*.env
+!env.example
+oc.env
+~/.oc_env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+venv3/
+
+# 评测输出
+outputs/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 日志
+*.log
